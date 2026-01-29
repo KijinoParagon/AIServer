@@ -3,7 +3,7 @@ import express from "express";
 import OpenAI from "openai";
 
 const app = express();
-const port = 3001;
+const port = 8080;
 
 let ol = async (req, res) => {
   let chain = req.body.messages;
